@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 
-
+header{
+    max-width: 1600px;
+}
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -69,6 +71,9 @@ header{
 }
 
 .banner-text{
+    margin-top: 45.5px;
+    margin-bottom: 45.5px;
+
     width: 1360px;
     height: 295px;
     
@@ -153,7 +158,50 @@ header{
 }
 
 .details p{
+    font-weight: 400;
     text-align: center;
     font-size: 18;
     color: white;
+}
+
+.hero-btns{
+    height: 52px;
+    width: 465px;
+    margin-left: 447.5px;
+    margin-right: 447.5px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.btn-one{
+    font-weight: 600;
+    border: none;
+    background-color: #30B868;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.btn-two{
+    font-weight: 600;
+    border-radius: 4px;
+    color: white;
+    border: 2px solid;
+    background: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
 }
