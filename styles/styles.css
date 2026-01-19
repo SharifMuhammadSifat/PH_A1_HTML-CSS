@@ -60,6 +60,10 @@ header{
     cursor: pointer;
 }
 
+main{
+    max-width: 1600px;
+}
+
 .hero-section{
     height: 647px;
     width: 1600px;
@@ -204,4 +208,76 @@ header{
     align-items: center;
     gap: 10px;
     cursor: pointer;
+}
+
+.inspire-section{
+    height: 152px;
+    width: 1360px;
+    margin: 0 auto;
+}
+
+.inspire-section h1{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.inspire-section p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #627382;
+}
+
+.feature-section{
+    height: 300px;
+    width: 1360px;
+    margin: 0 auto;
+    margin-top: 44px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.feature-card{
+
+    padding-top: 60.5px;
+    padding-bottom: 53.5px;
+    padding-left: 24px;
+    padding-right: 24px;
+    width: 322px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.feature-bg{
+    height: 60px;
+    width: 60px;
+    background-color: #F95555;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.feature-bg img{
+    margin: 0 auto;
+}
+
+.feature-card h2{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.feature-card p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #627382;
 }
