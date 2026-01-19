@@ -70,7 +70,7 @@ header{
 
 .banner-text{
     width: 1360px;
-    height: 379px;
+    height: 295px;
     
 }
 
@@ -118,8 +118,42 @@ header{
     width: 6px;
     background-color: #30B868;
     opacity: 100%;
-    
 }
 
+.moto-txt{
+    width: 770px;
+    height: 168px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 295px;
+    margin-right: 295px;
+    opacity: 90%;
+}
 
+.moto-txt h1{
+    text-align: center;
+    font-size: 74px;
+    font-weight: 700;
+    line-height: 1.2;
+}
 
+.first-line{
+    color: white;
+}
+
+.second-line{
+    color: #30B868;
+
+}
+
+.details{
+    height: 60px;
+    width: 1360px;
+    margin-bottom: 32;
+}
+
+.details p{
+    text-align: center;
+    font-size: 18;
+    color: white;
+}
