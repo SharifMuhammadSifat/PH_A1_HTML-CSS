@@ -57,3 +57,69 @@ header{
 .btn:hover{
     cursor: pointer;
 }
+
+.hero-section{
+    height: 647px;
+    width: 1600px;
+    padding-top: 70px;
+    padding-bottom: 134px;
+    padding-left: 120px;
+    padding-right: 120px;
+    background-image: url("../assets/hero-bg.png")
+}
+
+.banner-text{
+    width: 1360px;
+    height: 379px;
+    
+}
+
+.early-access{
+    height: 35px;
+    width: 229px;
+    background-color: white;
+    border-radius: 1000px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+    display: flex;
+    gap: 6px;
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+.early-access p{
+    color: #30B868;
+    font-size: 16;
+}
+
+.circle{
+    height: 16px;
+    width: 16px;
+    background-color: #30B868;
+    opacity: 20%;
+    border-radius: 50px;
+
+}
+
+
+.outer{
+    height: 12px;
+    width: 12px;
+    background-color: #30B868;
+    opacity: 40%;
+
+}
+
+.inner{
+    height: 6px;
+    width: 6px;
+    background-color: #30B868;
+    opacity: 100%;
+    
+}
+
+
+
