@@ -369,7 +369,9 @@ main{
 .conclusion-container{
     height: 506px;
     width: 1600px;
-    padding: 120px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 120px;
 }
 
 .conclusion{
